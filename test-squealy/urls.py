@@ -39,5 +39,6 @@ urlpatterns = [
     url(r'^api/v1/', include(router.urls)),
 
     url(r'^healthcheck/$', views.health_check),
+    url(r'^', include('squealy.urls')),
 ]
 

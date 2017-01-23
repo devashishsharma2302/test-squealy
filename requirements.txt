@@ -34,3 +34,4 @@ six==1.10.0               # via pip-tools
 uritemplate==3.0.0        # via coreapi
 vine==1.1.3               # via amqp
 whitenoise==3.2.2
+squealy

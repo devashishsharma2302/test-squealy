@@ -57,7 +57,7 @@ DEBUG = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # ElasticBeanstalk healthcheck sends requests with host header = internal ip
-# So we detect if we are in elastic beanstalk, 
+# So we detect if we are in elastic beanstalk,
 # and add the instances private ip address
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 private_ip = get_linux_ec2_private_ip()
@@ -75,11 +75,12 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    
+
     'rest_framework',
     'rest_framework_swagger',
-    
+
     'test-squealy.authentication',
+    'squealy'
 ]
 
 MIDDLEWARE_CLASSES = [
