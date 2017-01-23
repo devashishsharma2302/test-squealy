@@ -114,3 +114,5 @@ Following steps need to be undertaken to deploy to heroku
 
 
 # Troubleshooting
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
