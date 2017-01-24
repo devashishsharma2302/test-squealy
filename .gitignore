@@ -7,7 +7,6 @@ jinjasql.egg-info/
 venv
 *.sqlite3
 staticfiles
-.env
 
 *.log.*
 *.log
@@ -87,9 +86,6 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
-
-# dotenv
-.env
 
 # virtualenv
 venv/
